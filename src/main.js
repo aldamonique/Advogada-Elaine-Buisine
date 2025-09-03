@@ -1,4 +1,3 @@
-/* abre e fecha hamburger e x */
 const nav = document.querySelector("#header nav");
 const toggle = document.querySelectorAll("nav .toggle");
 
@@ -7,7 +6,7 @@ for (const element of toggle) {
     nav.classList.toggle("show");
   });
 }
-/* ao cllicar no link fecha menu*/
+
 const links = document.querySelectorAll("nav ul li a");
 for (const link of links) {
   link.addEventListener("click", function () {
@@ -15,7 +14,7 @@ for (const link of links) {
   });
 }
 
-/* mudar header no scroll */
+
 const header = document.querySelector("#header");
 const navHeight = header.offsetHeight;
 function changeHeaderWhenScroll() {
@@ -26,7 +25,6 @@ function changeHeaderWhenScroll() {
   }
 }
 
-/* Carrossel de Depoimentos */
 const swiper = new Swiper(".swiper", {
   slidesPerview: 1,
   pagination: {
@@ -42,7 +40,6 @@ const swiper = new Swiper(".swiper", {
   },
 });
 
-/* ScrolReview - mostra itemns ao rolar a pagina */
 const scrollReveal = ScrollReveal({
   origin: "top",
   distance: "30px",
@@ -61,7 +58,6 @@ scrollReveal.reveal(
   { interval: 100 }
 );
 
-/* Arrow Up */
 const backToTopButton = document.querySelector(".back-to-top");
 function backToTop() {
   if (window.scrollY >= 560) {
@@ -71,7 +67,6 @@ function backToTop() {
   }
 }
 
-/* Mrcação do menu de acordo com o local da pagina*/
 const sections = document.querySelectorAll("main section[id]");
 function activateMenuAtCurrentSection() {
   const checkpoint = window.pageYOffset + (window.innerHeight / 8) * 4;
@@ -95,7 +90,6 @@ function activateMenuAtCurrentSection() {
   }
 }
 
-/* When Scroll */
 window.addEventListener("scroll", function () {
   changeHeaderWhenScroll();
   backToTop();
