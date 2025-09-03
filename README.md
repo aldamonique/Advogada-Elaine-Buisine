@@ -1,8 +1,8 @@
-# Sobre o website 
+# About the Website  
 
-Site desenvolvido para Elaine Buisine, advogada. Elaine solicitou um site discreto e com sua identidade visual. O site foi desenvolvido e atualmente e em breve receberá hospedagem e domínio. 
+Website developed for Elaine Buisine, a lawyer. Elaine requested a discreet design that reflects her visual identity. The website has been developed and will soon be hosted with its own domain.  
 
-# Telas
+# Screens  
 
 ![Tela Inicial](Tela-inicial.png)
 ![Tela Inicial](Tela-experiencias.png)
